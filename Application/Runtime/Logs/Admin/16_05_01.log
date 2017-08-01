@@ -1,0 +1,1130 @@
+[ 2016-05-01T15:25:49+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001426s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001672s ]
+
+[ 2016-05-01T15:25:49+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined variable: admin_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\bdb24232b8dcb412d439a202b1caa9a5.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2016-05-01T15:25:49+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: admin_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 26 行.
+NOTIC: [8] Undefined variable: admin_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 27 行.
+NOTIC: [8] Undefined variable: last_login D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001708s ]
+
+[ 2016-05-01T15:25:49+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/footer.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001057s ]
+
+[ 2016-05-01T15:25:49+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002038s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+NOTIC: [8] Undefined variable: pri_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\6778f0baf40e879d2b8c18d2052abd0c.php 第 172 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\6778f0baf40e879d2b8c18d2052abd0c.php 第 172 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\6778f0baf40e879d2b8c18d2052abd0c.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001458s ]
+
+[ 2016-05-01T15:25:54+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+NOTIC: [8] Undefined variable: cate_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 101 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 101 行.
+NOTIC: [8] Undefined variable: brand_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 114 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 114 行.
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2016-05-01T15:26:02+08:00 ] ::1 /jiadianshop/index.php/Admin/Furnish/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+ERR: 无法加载控制器:Furnish
+
+[ 2016-05-01T15:26:03+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8] Undefined variable: cate_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 101 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 101 行.
+NOTIC: [8] Undefined variable: brand_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 114 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 114 行.
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2016-05-01T15:26:41+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Undefined variable: cate_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 101 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 101 行.
+NOTIC: [8] Undefined variable: brand_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 114 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 114 行.
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-05-01T15:36:06+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] Undefined variable: cate_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 101 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 101 行.
+NOTIC: [8] Undefined variable: brand_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 114 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 114 行.
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2016-05-01T15:36:41+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+NOTIC: [8] Undefined variable: cate_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 101 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 101 行.
+NOTIC: [8] Undefined variable: brand_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 114 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 114 行.
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2016-05-01T16:19:43+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001755s ]
+
+[ 2016-05-01T16:19:43+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined variable: admin_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\bdb24232b8dcb412d439a202b1caa9a5.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003758s ]
+
+[ 2016-05-01T16:19:43+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/footer.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001903s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001076s ]
+
+[ 2016-05-01T16:19:43+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001942s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined variable: pri_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\6778f0baf40e879d2b8c18d2052abd0c.php 第 172 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\6778f0baf40e879d2b8c18d2052abd0c.php 第 172 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\6778f0baf40e879d2b8c18d2052abd0c.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001916s ]
+
+[ 2016-05-01T16:19:43+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002346s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined index: admin_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 26 行.
+NOTIC: [8] Undefined variable: admin_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 27 行.
+NOTIC: [8] Undefined variable: last_login D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001942s ]
+
+[ 2016-05-01T16:19:45+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+NOTIC: [8] Undefined variable: cate_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 101 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 101 行.
+NOTIC: [8] Undefined variable: brand_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 114 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 114 行.
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2016-05-01T16:27:07+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2016-05-01T16:27:07+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined variable: admin_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\bdb24232b8dcb412d439a202b1caa9a5.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2016-05-01T16:27:07+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002785s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Undefined index: admin_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 26 行.
+NOTIC: [8] Undefined variable: admin_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 27 行.
+NOTIC: [8] Undefined variable: last_login D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001704s ]
+
+[ 2016-05-01T16:27:07+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003294s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] Undefined variable: pri_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\6778f0baf40e879d2b8c18d2052abd0c.php 第 172 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\6778f0baf40e879d2b8c18d2052abd0c.php 第 172 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\6778f0baf40e879d2b8c18d2052abd0c.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001287s ]
+
+[ 2016-05-01T16:27:07+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/footer.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003044s ]
+
+[ 2016-05-01T16:27:08+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001725s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+NOTIC: [8] Undefined variable: cate_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 101 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 101 行.
+NOTIC: [8] Undefined variable: brand_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 114 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 114 行.
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001216s ]
+
+[ 2016-05-01T17:48:49+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/brandList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001875s ]
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jd_brands` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jd_brands` LIMIT 0,1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 46 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined variable: i D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002212s ]
+
+[ 2016-05-01T20:44:33+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2016-05-01T20:44:33+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] Undefined variable: admin_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\bdb24232b8dcb412d439a202b1caa9a5.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2016-05-01T20:44:33+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/footer.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001653s ]
+
+[ 2016-05-01T20:44:33+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Undefined index: admin_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 26 行.
+NOTIC: [8] Undefined variable: admin_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 27 行.
+NOTIC: [8] Undefined variable: last_login D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001469s ]
+
+[ 2016-05-01T20:44:33+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8] Undefined variable: pri_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\6778f0baf40e879d2b8c18d2052abd0c.php 第 172 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\6778f0baf40e879d2b8c18d2052abd0c.php 第 172 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\6778f0baf40e879d2b8c18d2052abd0c.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.029867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001380s ]
+
+[ 2016-05-01T20:45:47+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000469s ]
+NOTIC: [8] Undefined variable: cate_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 101 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 101 行.
+NOTIC: [8] Undefined variable: brand_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 114 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 114 行.
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2016-05-01T21:02:27+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Undefined variable: brand_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 114 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 114 行.
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2016-05-01T21:03:08+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] Undefined variable: brand_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 114 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 114 行.
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001425s ]
+
+[ 2016-05-01T21:06:17+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001562s ]
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `jd_brands`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2016-05-01T22:07:13+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `jd_brands`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2016-05-01T22:10:08+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `jd_brands`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2016-05-01T22:14:40+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `jd_brands`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 244 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2016-05-01T22:18:14+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `jd_brands`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 247 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 247 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-05-01T22:18:16+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `jd_brands`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 247 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 247 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2016-05-01T22:18:19+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `jd_brands`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 247 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 247 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2016-05-01T22:18:21+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001628s ]
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `jd_brands`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 247 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 247 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2016-05-01T22:18:54+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `jd_brands`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 247 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 247 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2016-05-01T22:19:29+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `jd_brands`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 248 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 248 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2016-05-01T22:20:01+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `jd_brands`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 249 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-05-01T22:33:12+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001635s ]
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `jd_brands`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 251 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2016-05-01T22:54:08+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `jd_brands`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 255 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\c74fb0c111dc216c19c7bf766c95f466.php 第 255 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2016-05-01T23:16:29+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `jd_brands`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jd_goods_type` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `jd_goods_type`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2016-05-01T23:21:08+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `jd_brands`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jd_goods_type` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `jd_goods_type`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2016-05-01T23:21:13+08:00 ] ::1 /jiadianshop/index.php/Admin/Eugroup/Goods/getAttrListByTypeId.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+ERR: 无法加载控制器:Eugroup
+
+[ 2016-05-01T23:23:42+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `jd_brands`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jd_goods_type` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `jd_goods_type`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2016-05-01T23:23:46+08:00 ] ::1 /jiadianshop/index.php/Admin/Eugroup/Goods/getAttrListByTypeId.html?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+ERR: 无法加载控制器:Eugroup
+
+[ 2016-05-01T23:23:49+08:00 ] ::1 /jiadianshop/index.php/Admin/Eugroup/Goods/getAttrListByTypeId.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+ERR: 无法加载控制器:Eugroup
+

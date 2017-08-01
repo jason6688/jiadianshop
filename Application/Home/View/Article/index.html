@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>商品搜索_家电商城</title>
+<meta name="keywords" content="">
+
+<link rel="shortcut icon" href="__PUBLIC__/Ico/favicon.ico">
+<link href="__PUBLIC__/Css/ec.css" rel="stylesheet" type="text/css">
+
+<link href="__PUBLIC__/Css/main.css" rel="stylesheet" type="text/css">
+<script src="__PUBLIC__/Js/jsapi.js" namespace="ec"></script><!--[if lte IE 6]><script>ol.isIE6=true;</script><![endif]--><!--[if IE 7]><script>ol.isIE7=true;</script><![endif]--><!--[if IE 8]><script>ol.isIE8=true;</script><![endif]-->
+<script src="__PUBLIC__/Js/jquery-1.js"></script>
+<script src="__PUBLIC__/Js/ec_002.js"></script> 
+<script src="__PUBLIC__/Js/ec.js"></script> 
+<!--[if lt IE 9]><script src="__PUBLIC__/Js/html5shiv.js"></script> <![endif]-->
+
+<style>
+#search-pager .current{
+	border:1px solid #ccc;
+	display:inline-block;
+	width:7px;
+	height:16px;
+	font-weight:400;
+	text-align:center;
+	line-height:16px;
+    font-size:12px;
+	padding:0 5px;
+	background:#D2D2D2;
+	margin-left:5px;
+	margin-right:5px;
+}
+#search-pager .num{
+    border:1px solid #ccc;
+	display:inline-block;
+	width:7px;
+	height:16px;
+	font-weight:400;
+	text-align:center;
+	line-height:16px;
+    font-size:12px;
+	padding:0 5px;
+	
+	margin-left:5px;
+	margin-right:5px;
+
+}
+#search-pager .prev{
+    border:1px solid #ccc;
+	display:inline-block;
+	width:7px;
+	height:16px;
+	font-weight:400;
+	text-align:center;
+	line-height:16px;
+    font-size:9px;
+	padding-left:3px;
+	padding-right:5px;
+	
+	margin-left:5px;
+	margin-right:5px;
+}
+
+#search-pager .next{
+    border:1px solid #ccc;
+	display:inline-block;
+	width:7px;
+	height:16px;
+	text-align:center;
+	line-height:16px;
+    font-size:9px;
+	padding-left:3px;
+	padding-right:5px;
+	
+	margin-left:5px;
+	margin-right:5px;
+
+
+}
+</style>
+
+</head>
+
+
+
+<body>
+ <!------引入公共头部------------->
+<include file="Public/pinkheader"/>
+<include file="Public/searchheader"/>
+<include file="Public/naver" />
+<div class="hr-5"></div>
+
+<!--<div style="width:980px;min-height:1000px;border:1px solid red;margin:0 auto;">
+	<h1><{$title}></h1>
+	
+</div>-->
+
+<style>
+    .w{width:1180px;margin:0 auto;}
+	#article{min-height:400px;width:800px;margin:0 auto;}
+    #content{text-align: center;margin:20px auto;min-height:400px;}
+    #content h3{margin-bottom: 10px;font-size: 26px;line-height: 36px;color:#555;}
+    #content .info span{color:#555;padding:10px;}
+    #content .article{margin:20px;/*font-size:18px;line-height: 22px;word-wrap: break-word;*/text-align: left;    }
+  </style>
+  <div id="content" class="w">
+      <h3><{$article.title}></h3>
+      <div class="info w">
+          <span><{$article.add_time|date="Y-m-d H:i:s",###}></span>
+          
+      </div>
+      <div id="article">
+          <?php echo html_entity_decode($article['body']);?>
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+
+<include file="Public/footer" />
+</body></html>

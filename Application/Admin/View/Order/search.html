@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>订单-列表</title>
+<link href="__PUBLIC__/Admin/css/style.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Admin/css/select.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/Common/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/js/select-ui.min.js"></script>
+
+
+<script language="javascript">
+$(function(){
+    //导航切换
+    $(".imglist li").click(function(){
+        $(".imglist li.selected").removeClass("selected")
+        $(this).addClass("selected");
+    })
+    $(".select3").uedSelect({
+        width : 152
+    });
+})
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".click").click(function(){
+  $(".tip").fadeIn(200);
+  });
+
+  $(".tiptop a").click(function(){
+  $(".tip").fadeOut(200);
+});
+
+  $(".sure").click(function(){
+  $(".tip").fadeOut(100);
+});
+
+  $(".cancel").click(function(){
+  $(".tip").fadeOut(100);
+});
+
+});
+</script>
+</head>
+
+<body class="sarchbody">
+    <div class="place">
+        <span>位置：</span>
+        <ul class="placeul">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">订单管理</a></li>
+            <li><a href="#">订单搜索</a></li>
+        </ul>
+    </div>
+
+    <div class="rightinfo">
+        <form action="" method="post">
+        <ul class="seachform1" style="width:100%">
+
+            <li><label>订单号</label><input name="order_no" type="text" value="" class="scinput1"></li>
+            <li><label>收货人</label><input name="address_name" type="text" value="" class="scinput1"></li>
+
+            <li><label>订单状态</label>
+                <div class="vocation">
+                    <select class="select3" name="order_state">
+                    <option value="" >全部</option>
+                    <option value="0">等待付款</option>
+                    <option value="1">等待发货</option>
+                    <option value="2">已发货</option>
+                    <option value="3">已收获</option>
+                    <option value="4">已评论</option>
+                    <option value="5">换货</option>
+                    <option value="6">退货</option>
+                    </select>
+                </div>
+            </li>
+            <!--<li><label>发货状态</label>
+                <div class="vocation">
+                    <select class="select3" name="post_status">
+                    <option value="-1">全部</option>
+                    <option value="1" <?php echo $_GET['post_status']==1?'selected':'' ?>>未发货</option>
+                    <option value="2" <?php echo $_GET['post_status']==2?'selected':'' ?>>已发货</option>
+                    <option value="4" <?php echo $_GET['post_status']==4?'selected':'' ?>>已确认收货</option>
+                    </select>
+                </div>
+            </li>-->
+            <li class=""><label>&nbsp;</label><input type="submit" name="" class="scbtn" value="查询">   
+			<!--<input name="" type="button" class="scbtn1" onclick="moreSearch(this);" data-togg="0" value="更多条件">-->   </li>
+        </ul>
+        <div class="formbody moreSearch" id="moreSearch" style="margin-top:10px;display:none;clear:both;padding:0">
+            <div id="usual1" class="usual">
+                <ul class="seachform1">
+                    <li><label>退货状态</label>
+                        <div class="vocation">
+                            <select class="select3" name="return_status">
+                                <option value=''>全部</option>
+                                <option value="1">未申请</option>
+                                <option value="2">已申请</option>
+                                <option value="3">管理员已同意</option>
+                                <option value="4">管理员不同意</option>
+                                <option value="5">用户退货</option>
+                                <option value="6">退货已完成</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li><label>是否评价</label>
+                        <div class="vocation">
+                            <select class="select3" name="is_comment">
+                                <option value=''>全部</option>
+                                <option value="1">已评价</option>
+                                <option value="2">未评价</option>
+                            </select>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </form>
+        <table class="listtable">
+        <thead>
+        <tr>
+            <th>编号</th>
+            <th>订单号</th>
+            <th>下单时间</th>
+            <th>收货人</th>
+            <th>总金额</th>
+            <th>应付金额</th>
+            <th>订单状态</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <?php foreach ($order_list as $order): ?>
+        <tr data-id="<{$order.order_id}>">
+            <td><?php echo (max(1,intval($_GET['p']))-1)*C('ORDER_PAGE_SIZE') + ++$i ?></td>
+            <td><a href="<{:U('info',array('order_id'=>$order['order_id']))}>"><{$order.order_no}></a></td>
+            <td><{$order.order_time|date="Y-m-d H:i:s",###}></td>
+            <td><{$order.address_name}></td>
+            <td><{$order.order_total_money}></td>
+            <td><{$order.deal_price}></td>
+            <td><?php if($order['order_state']==1){echo "<a href='' style='color:blue;'>".order_status($order['order_state'])."</a>";}elseif($order['order_state']==5||$order['order_state']==6){echo "<a href='' style='color:red;'>".order_status($order['order_state'])."</a>";}else{echo order_status($order['order_state']);}?>&nbsp;
+            </td>
+            <td>
+                <a href="<{:U('info',array('order_id'=>$order['order_id']))}>">查看</a>
+                <?php if($order['order_status']==1){?>
+                |&nbsp;<a href="<{:U('sub',array('order_id'=>$order['order_id']))}>" onclick="return confirm('确认提交OMS系统？')" style="color:red">提交OMS</a>
+                <?php }?>
+            </td>
+        </tr>
+        <?php endforeach ?>
+
+        </tbody>
+
+        </table>
+
+        <!-- 分页开始 -->
+		
+			<div class="page">
+			<{$page}>
+			</div>
+        <!-- 分页结束 -->      
+    </div>
+    <script>
+    function moreSearch(obj){
+            if($(obj).attr('data-togg')==0){
+                $('#moreSearch').slideDown(200);
+                $(obj).attr('data-togg',1);
+            }else{
+                $('#moreSearch').slideUp(200);
+                $(obj).attr('data-togg',0);
+            }
+        }
+    </script>
+</body>
+
+</html>

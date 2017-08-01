@@ -1,0 +1,90 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>会员-编辑</title>
+<link href="/jiadianshop/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!-- 当前位置 -->
+    <div class="place">
+        <span>位置：</span>
+        <ul class="placeul">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">用户管理</a></li>
+            <li><a href="#">用户列表</a></li>
+            <li><a href="#">编辑</a></li>
+        </ul>
+    </div>
+
+    <form action="<?php echo U('editAct');?>" method="post">
+        <div class="formbody">
+            <div class="formtitle"><span>基本信息</span></div>
+            <ul class="forminfo">
+               
+                <li><label>用户名</label><input name="user_name" type="text" value="<?php echo ($user["user_name"]); ?>" class="dfinput" style="width:150px;"><i></i></li>
+
+                
+                <li><label>密码</label><input name="user_pwd" type="password" value="" class="dfinput" style="width:150px;" /> <i>为空默认不修改</i></li>
+
+                
+                <li><label>邮箱</label><input name="user_email" type="text" value="<?php echo ($user["user_email"]); ?>" class="dfinput" style="width:150px;" /> <i></i></li>
+
+                <!--<li><label>手机号</label><input name="mobile_phone" type="text" value="<?php echo ($user["mobile_phone"]); ?>" class="dfinput" style="width:150px;" /> <i></i></li>-->
+
+                <li><label>性别</label>
+					<select name="user_sex"  class="dfinput" style="width:150px;" /> 
+					<option value='1' <?php if($user["user_sex"] == '1' ): ?>selected="selected"<?php endif; ?> >男</option>
+					<option value='2' <?php if($user["sex"] == '2' ): ?>selected="selected"<?php endif; ?> >女</option>
+					<option value='0' <?php if($user["sex"] == '0' ): ?>selected="selected"<?php endif; ?> >保密</option>
+					</select>
+					<i></i>
+				</li>
+                
+				<!--<li><label>身份证号</label><input name="end_time"  type="text" value="<?php echo ($user["identity_card"]); ?>" class="dfinput" style="width:150px;" /> <i></i></li>-->
+
+               
+
+                <!-- 保存按钮 -->
+                <li><label>&nbsp;</label>
+                    <input name="user_id" type="hidden" class="btn" value="<?php echo ($user["user_id"]); ?>"/>
+                    <input name="" type="submit" class="btn" value="保存"/>
+                </li>
+            </ul>
+        </div>
+    </form>
+	<script src="/jiadianshop/Public/Plugin/laydate/laydate.js"></script>
+
+<script type="text/javascript">
+        !function(){
+          laydate.skin('dahong');//切换皮肤，请查看skins下面皮肤库
+        }();
+        var start = {
+            elem: '#start_time',
+            format: 'YYYY/MM/DD hh:mm:ss',
+            min: laydate.now(), //设定最小日期为当前日期
+            max: '2099-06-16 23:59:59', //最大日期
+            istime: true,
+            istoday: false,
+            choose: function(datas){
+                 end.min = datas; //开始日选好后，重置结束日的最小日期
+                 end.start = datas //将结束日的初始值设定为开始日
+            }
+        };
+        var end = {
+            elem: '#end_time',
+            format: 'YYYY/MM/DD hh:mm:ss',
+            min: laydate.now(),
+            max: '2099-06-16 23:59:59',
+            istime: true,
+            istoday: false,
+            choose: function(datas){
+                start.max = datas; //结束日选好后，重置开始日的最大日期
+            }
+        };
+        laydate(start);
+        laydate(end);
+</script>
+</body>
+</html>

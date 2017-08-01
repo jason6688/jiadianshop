@@ -1,0 +1,18 @@
+[ 2016-05-11T18:54:55+08:00 ] ::1 /jiadianshop/index.php/jiadianshop/index.php/Home/Index/index.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+ERR: 无法加载模块:Jiadianshop
+
+[ 2016-05-11T18:56:33+08:00 ] ::1 /jiadianshop/index.php/jiadianshop/index.php/Home/Index/index.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+ERR: 无法加载模块:Jiadianshop
+
+[ 2016-05-11T18:56:34+08:00 ] ::1 /jiadianshop/index.php/jiadianshop/index.php/Home/Index/index.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+ERR: 无法加载模块:Jiadianshop
+

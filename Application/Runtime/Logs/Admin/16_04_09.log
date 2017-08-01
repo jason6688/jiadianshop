@@ -1,0 +1,700 @@
+[ 2016-04-09T12:47:52+08:00 ] ::1 /jiadianshop/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `jd_article` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `jd_article` LEFT JOIN jd_article_cat ON jd_article.cat_id = jd_article_cat.cat_id   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2016-04-09T12:47:57+08:00 ] ::1 /jiadianshop/index.php/Admin/Article/catList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+SQL: SHOW COLUMNS FROM `jd_article_cat` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `jd_article_cat`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\ed13a11cbb2f182506ea002ae8b83c51.php 第 50 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\ed13a11cbb2f182506ea002ae8b83c51.php 第 50 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\ed13a11cbb2f182506ea002ae8b83c51.php 第 53 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\ed13a11cbb2f182506ea002ae8b83c51.php 第 53 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\ed13a11cbb2f182506ea002ae8b83c51.php 第 53 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\ed13a11cbb2f182506ea002ae8b83c51.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001185s ]
+
+[ 2016-04-09T12:55:07+08:00 ] ::1 /jiadianshop/index.php/Admin/Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `jd_article_cat` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jd_article_cat`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2016-04-09T12:55:14+08:00 ] ::1 /jiadianshop/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001817s ]
+SQL: SHOW COLUMNS FROM `jd_article` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `jd_article` LEFT JOIN jd_article_cat ON jd_article.cat_id = jd_article_cat.cat_id   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2016-04-09T12:55:18+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/Public/loginOut.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+ERR: 非法操作:Public
+
+[ 2016-04-09T12:55:20+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/footer.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002103s ]
+
+[ 2016-04-09T12:55:57+08:00 ] ::1 /jiadianshop/index.php/Admin/Furnish/Goods/recycle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+ERR: 无法加载控制器:Furnish
+
+[ 2016-04-09T12:55:58+08:00 ] ::1 /jiadianshop/index.php/Admin/Furnish/Brand/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+ERR: 无法加载控制器:Furnish
+
+[ 2016-04-09T12:55:59+08:00 ] ::1 /jiadianshop/index.php/Admin/Furnish/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+ERR: 无法加载控制器:Furnish
+
+[ 2016-04-09T12:56:00+08:00 ] ::1 /jiadianshop/index.php/Admin/Furnish/Goods/recycle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002317s ]
+ERR: 无法加载控制器:Furnish
+
+[ 2016-04-09T12:56:00+08:00 ] ::1 /jiadianshop/index.php/Admin/Furnish/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+ERR: 无法加载控制器:Furnish
+
+[ 2016-04-09T12:56:01+08:00 ] ::1 /jiadianshop/index.php/Admin/Furnish/Quote/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001574s ]
+ERR: 无法加载控制器:Furnish
+
+[ 2016-04-09T12:56:02+08:00 ] ::1 /jiadianshop/index.php/Admin/Furnish/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+ERR: 无法加载控制器:Furnish
+
+[ 2016-04-09T12:56:02+08:00 ] ::1 /jiadianshop/index.php/Admin/Furnish/Autoputaway/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+ERR: 无法加载控制器:Furnish
+
+[ 2016-04-09T12:56:07+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2016-04-09T12:56:07+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+NOTIC: [8] Undefined variable: admin_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 26 行.
+NOTIC: [8] Undefined variable: admin_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 27 行.
+NOTIC: [8] Undefined variable: last_login D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001540s ]
+
+[ 2016-04-09T12:56:07+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] Undefined variable: admin_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\bdb24232b8dcb412d439a202b1caa9a5.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001483s ]
+
+[ 2016-04-09T12:56:07+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/footer.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001353s ]
+
+[ 2016-04-09T12:56:07+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000844s ]
+NOTIC: [8] Undefined variable: pri_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\6778f0baf40e879d2b8c18d2052abd0c.php 第 171 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\6778f0baf40e879d2b8c18d2052abd0c.php 第 171 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\6778f0baf40e879d2b8c18d2052abd0c.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002183s ]
+
+[ 2016-04-09T12:56:11+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/index.php?permission
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+ERR: 非法操作:index.php
+
+[ 2016-04-09T12:56:52+08:00 ] ::1 /jiadianshop/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `jd_article` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `jd_article` LEFT JOIN jd_article_cat ON jd_article.cat_id = jd_article_cat.cat_id   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 44 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2016-04-09T12:56:55+08:00 ] ::1 /jiadianshop/index.php/Admin/Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `jd_article_cat` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `jd_article_cat`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001252s ]
+
+[ 2016-04-09T22:01:48+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2016-04-09T22:01:48+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+NOTIC: [8] Undefined variable: admin_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\bdb24232b8dcb412d439a202b1caa9a5.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2016-04-09T22:01:48+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/footer.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2016-04-09T22:01:48+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Undefined variable: admin_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 26 行.
+NOTIC: [8] Undefined variable: admin_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 27 行.
+NOTIC: [8] Undefined variable: last_login D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001837s ]
+
+[ 2016-04-09T22:01:48+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+NOTIC: [8] Undefined variable: pri_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\6778f0baf40e879d2b8c18d2052abd0c.php 第 171 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\6778f0baf40e879d2b8c18d2052abd0c.php 第 171 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\6778f0baf40e879d2b8c18d2052abd0c.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2016-04-09T22:01:53+08:00 ] ::1 /jiadianshop/index.php/Admin/Article/catList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+SQL: SHOW COLUMNS FROM `jd_article_cat` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `jd_article_cat`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\ed13a11cbb2f182506ea002ae8b83c51.php 第 50 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\ed13a11cbb2f182506ea002ae8b83c51.php 第 50 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\ed13a11cbb2f182506ea002ae8b83c51.php 第 53 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\ed13a11cbb2f182506ea002ae8b83c51.php 第 53 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\ed13a11cbb2f182506ea002ae8b83c51.php 第 53 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\ed13a11cbb2f182506ea002ae8b83c51.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2016-04-09T22:02:14+08:00 ] ::1 /jiadianshop/index.php/Admin/Furnish/Goods/recycle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+ERR: 无法加载控制器:Furnish
+
+[ 2016-04-09T22:10:06+08:00 ] ::1 /jiadianshop/index.php/Admin/Furnish/Brand/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+ERR: 无法加载控制器:Furnish
+

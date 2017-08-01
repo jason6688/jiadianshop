@@ -1,0 +1,1513 @@
+[ 2016-05-23T11:22:11+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2016-05-23T11:22:11+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Undefined variable: admin_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\bdb24232b8dcb412d439a202b1caa9a5.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2016-05-23T11:22:11+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined index: admin_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 26 行.
+NOTIC: [8] Undefined variable: admin_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 27 行.
+NOTIC: [8] Undefined variable: last_login D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2016-05-23T11:22:11+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Undefined variable: pri_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\6778f0baf40e879d2b8c18d2052abd0c.php 第 172 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\6778f0baf40e879d2b8c18d2052abd0c.php 第 172 行.
+NOTIC: [8] Undefined variable: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\6778f0baf40e879d2b8c18d2052abd0c.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2016-05-23T11:22:11+08:00 ] ::1 /jiadianshop/index.php/Admin/Index/footer.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2016-05-23T11:22:18+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/brandList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jd_brands` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jd_brands` LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 46 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined variable: i D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2016-05-23T11:22:30+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addBrand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2016-05-23T11:22:55+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addBrandAct.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\jiadianshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\jiadianshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `jd_brands` (`brand_name`,`cat_id`,`is_show`,`brand_des`,`order`) VALUES ('海信','7','1','','1') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2016-05-23T11:22:56+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/brandList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jd_brands` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jd_brands` LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 46 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined variable: i D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2016-05-23T11:23:02+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addBrand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-05-23T11:23:12+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addBrandAct.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\jiadianshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\jiadianshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `jd_brands` (`brand_name`,`cat_id`,`is_show`,`brand_des`,`order`) VALUES ('创维','7','1','','1') [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2016-05-23T11:23:13+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/brandList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jd_brands` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jd_brands` LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 46 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined variable: i D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2016-05-23T11:42:42+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `jd_brands`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jd_goods_type` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `jd_goods_type`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2016-05-23T11:51:08+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/getAttrListByTypeId.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_attribute` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `jd_goods_attribute` WHERE `type_id` = 2  [ RunTime:0.0003s ]
+
+[ 2016-05-23T11:53:51+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoodsAct.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\jiadianshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: attr_price_list D:\wamp\www\jiadianshop\Application\Admin\Controller\GoodsController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\jiadianshop\Application\Admin\Controller\GoodsController.class.php 第 186 行.
+NOTIC: [8] Undefined index: attr_num_list D:\wamp\www\jiadianshop\Application\Admin\Controller\GoodsController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\jiadianshop\Application\Admin\Controller\GoodsController.class.php 第 187 行.
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\jiadianshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\jiadianshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `jd_goods` (`goods_name`,`selling_points`,`goods_sn`,`cat_id`,`brand_id`,`market_price`,`shop_price`,`goods_number`,`goods_desc`,`is_putaway`,`is_new`,`is_rec`,`is_hot`,`warn_number`,`key_words`,`seo_description`,`seller_note`,`attr_id_list`,`attr_value_list`,`goods_thumb_img`,`add_time`,`attr_price_list`,`attr_num_list`) VALUES ('Hisense/海信 LED49EC620UA 49吋4K超清14核智能平板液晶电视机48','【限时促销】下单即送：海信专用挂架,无线键盘鼠标！价机不可失。【宝贝特色】VIDAA3极简智能，64位14核，真4K极致超高清，内置无线WIFI智能，聚享购，语音助手。 ②【服务升级】正品联保，品牌直供，送货入户，30天内质量问题包退换！','TV-HAIXIN-001','7','9','3000','2799','2000','&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975111107923.jpg&quot; title=&quot;1463975111107923.jpg&quot; alt=&quot;01.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975115916146.jpg&quot; title=&quot;1463975115916146.jpg&quot; alt=&quot;02.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975119130782.jpg&quot; title=&quot;1463975119130782.jpg&quot; alt=&quot;03.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975124132150.jpg&quot; title=&quot;1463975124132150.jpg&quot; alt=&quot;04.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975127775432.jpg&quot; title=&quot;1463975127775432.jpg&quot; alt=&quot;05.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975131325062.jpg&quot; title=&quot;1463975131325062.jpg&quot; alt=&quot;06.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975135111056.jpg&quot; title=&quot;1463975135111056.jpg&quot; alt=&quot;07.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975138174106.jpg&quot; title=&quot;1463975138174106.jpg&quot; alt=&quot;08.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975145138786.jpg&quot; title=&quot;1463975145138786.jpg&quot; alt=&quot;09.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975155100083.jpg&quot; title=&quot;1463975155100083.jpg&quot; alt=&quot;10.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975160138700.jpg&quot; title=&quot;1463975160138700.jpg&quot; alt=&quot;11.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975165822337.jpg&quot; title=&quot;1463975165822337.jpg&quot; alt=&quot;12.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975171182626.jpg&quot; title=&quot;1463975171182626.jpg&quot; alt=&quot;13.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975176118087.jpg&quot; title=&quot;1463975176118087.jpg&quot; alt=&quot;14.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975182374548.jpg&quot; title=&quot;1463975182374548.jpg&quot; alt=&quot;15.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975187935510.jpg&quot; title=&quot;1463975187935510.jpg&quot; alt=&quot;16.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975192103741.jpg&quot; title=&quot;1463975192103741.jpg&quot; alt=&quot;17.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975198512680.jpg&quot; title=&quot;1463975198512680.jpg&quot; alt=&quot;18.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975203540823.jpg&quot; title=&quot;1463975203540823.jpg&quot; alt=&quot;19.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975208455362.jpg&quot; title=&quot;1463975208455362.jpg&quot; alt=&quot;20.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975215779563.jpg&quot; title=&quot;1463975215779563.jpg&quot; alt=&quot;21.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975222537897.jpg&quot; title=&quot;1463975222537897.jpg&quot; alt=&quot;22.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975228123243.jpg&quot; title=&quot;1463975228123243.jpg&quot; alt=&quot;23.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975233145189.jpg&quot; title=&quot;1463975233145189.jpg&quot; alt=&quot;24.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975240466636.jpg&quot; title=&quot;1463975240466636.jpg&quot; alt=&quot;25.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975245861754.jpg&quot; title=&quot;1463975245861754.jpg&quot; alt=&quot;26.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975251179356.jpg&quot; title=&quot;1463975251179356.jpg&quot; alt=&quot;27.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975256220580.jpg&quot; title=&quot;1463975256220580.jpg&quot; alt=&quot;28.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975263115617.jpg&quot; title=&quot;1463975263115617.jpg&quot; alt=&quot;29.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975269117399.jpg&quot; title=&quot;1463975269117399.jpg&quot; alt=&quot;30.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975275356647.jpg&quot; title=&quot;1463975275356647.jpg&quot; alt=&quot;31.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975280329021.jpg&quot; title=&quot;1463975280329021.jpg&quot; alt=&quot;32.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975284108560.jpg&quot; title=&quot;1463975284108560.jpg&quot; alt=&quot;33.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975290637989.jpg&quot; title=&quot;1463975290637989.jpg&quot; alt=&quot;34.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975295302599.jpg&quot; title=&quot;1463975295302599.jpg&quot; alt=&quot;35.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463975300117993.jpg&quot; title=&quot;1463975300117993.jpg&quot; alt=&quot;36.jpg&quot;/&gt;&lt;/p&gt;','1','1','1','1','10','平板电视,海信,智能电视，高清智能电视','Hisense/海信 LED49EC620UA 49吋4K超清14核智能平板液晶电视机48','海信平板电视TV-HAIXIN-001','5,7,8','1106x268x696mm,VIDAA3, A+屏幕','/jiadianshop/Public/Uploads/GoodsThumb/20160523/9377_1463975631.jpg','1463975631','','') [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2016-05-23T11:53:52+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `jd_goods` INNER JOIN jd_brands ON jd_goods.brand_id = jd_brands.brand_id  WHERE `is_delete` = 0  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Undefined variable: cate_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 68 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 68 行.
+NOTIC: [8] Undefined variable: brand_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 78 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 78 行.
+NOTIC: [8] Undefined index: is_putaway D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 93 行.
+NOTIC: [8] Undefined index: is_putaway D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 94 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 102 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 103 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined variable: i D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 186 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2016-05-23T15:33:28+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `jd_brands`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `jd_goods_type` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `jd_goods_type`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2016-05-23T15:36:39+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `jd_goods` INNER JOIN jd_brands ON jd_goods.brand_id = jd_brands.brand_id  WHERE `is_delete` = 0  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined variable: cate_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 68 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 68 行.
+NOTIC: [8] Undefined variable: brand_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 78 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 78 行.
+NOTIC: [8] Undefined index: is_putaway D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 93 行.
+NOTIC: [8] Undefined index: is_putaway D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 94 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 102 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 103 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined variable: i D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 186 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2016-05-23T15:39:18+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/typeList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_type` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `jd_goods_type`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\72491030b312071af75970d5dce4421a.php 第 47 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\72491030b312071af75970d5dce4421a.php 第 77 行.
+NOTIC: [8] Undefined variable: i D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\72491030b312071af75970d5dce4421a.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\72491030b312071af75970d5dce4421a.php 第 77 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\72491030b312071af75970d5dce4421a.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2016-05-23T15:39:20+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/attributeList/type_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_attribute` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `jd_goods_attribute` INNER JOIN jd_goods_type ON jd_goods_attribute.type_id = jd_goods_type.type_id  WHERE jd_goods_type.type_id = '2'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 48 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 48 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 83 行.
+NOTIC: [8] Undefined variable: i D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 83 行.
+NOTIC: [8] Use of undefined constant attr_mode - assumed 'attr_mode' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 93 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 93 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 83 行.
+NOTIC: [8] Use of undefined constant attr_mode - assumed 'attr_mode' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 93 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 93 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 83 行.
+NOTIC: [8] Use of undefined constant attr_mode - assumed 'attr_mode' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 93 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 93 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2016-05-23T15:39:48+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/editAttribute/attr_id/8/type_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_attribute` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `jd_goods_attribute` WHERE `attr_id` = 8 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jd_goods_type` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `jd_goods_type` WHERE `type_id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jd_goods_type`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001388s ]
+
+[ 2016-05-23T15:39:52+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/typeList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_type` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_goods_type`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\72491030b312071af75970d5dce4421a.php 第 47 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\72491030b312071af75970d5dce4421a.php 第 77 行.
+NOTIC: [8] Undefined variable: i D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\72491030b312071af75970d5dce4421a.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\72491030b312071af75970d5dce4421a.php 第 77 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\72491030b312071af75970d5dce4421a.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2016-05-23T15:39:54+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/attributeList/type_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_attribute` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `jd_goods_attribute` INNER JOIN jd_goods_type ON jd_goods_attribute.type_id = jd_goods_type.type_id  WHERE jd_goods_type.type_id = '2'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 48 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 48 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 83 行.
+NOTIC: [8] Undefined variable: i D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 83 行.
+NOTIC: [8] Use of undefined constant attr_mode - assumed 'attr_mode' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 93 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 93 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 83 行.
+NOTIC: [8] Use of undefined constant attr_mode - assumed 'attr_mode' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 93 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 93 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 83 行.
+NOTIC: [8] Use of undefined constant attr_mode - assumed 'attr_mode' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 93 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 93 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2016-05-23T15:39:55+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addAttribute.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_type` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `jd_goods_type`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined index: type_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3a3148afc4a2ff41d4c8206f52eb1dbc.php 第 37 行.
+NOTIC: [8] Undefined index: type_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3a3148afc4a2ff41d4c8206f52eb1dbc.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2016-05-23T15:46:08+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addAttributeAct.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_attribute` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\jiadianshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\jiadianshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `jd_goods_attribute` (`attr_name`,`type_id`,`attr_mode`,`input_type`,`attr_values`) VALUES ('颜色分类','2','1','1','黑色，白色') [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2016-05-23T15:46:09+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/attributeList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_attribute` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `jd_goods_attribute` INNER JOIN jd_goods_type ON jd_goods_attribute.type_id = jd_goods_type.type_id  WHERE jd_goods_type.type_id = ''  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 48 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 48 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 118 行.
+NOTIC: [8] Undefined variable: attr D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2016-05-23T15:46:20+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `jd_goods` INNER JOIN jd_brands ON jd_goods.brand_id = jd_brands.brand_id  WHERE `is_delete` = 0  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined variable: cate_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 68 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 68 行.
+NOTIC: [8] Undefined variable: brand_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 78 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 78 行.
+NOTIC: [8] Undefined index: is_putaway D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 93 行.
+NOTIC: [8] Undefined index: is_putaway D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 94 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 102 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 103 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined variable: i D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 186 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-05-23T15:46:23+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `jd_brands`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jd_goods_type` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `jd_goods_type`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000469s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2016-05-23T15:46:28+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/getAttrListByTypeId.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_attribute` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `jd_goods_attribute` WHERE `type_id` = 2  [ RunTime:0.0004s ]
+
+[ 2016-05-23T15:46:43+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/brandList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jd_brands` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jd_brands` LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 46 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined variable: i D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2016-05-23T15:46:44+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/typeList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_type` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `jd_goods_type`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\72491030b312071af75970d5dce4421a.php 第 47 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\72491030b312071af75970d5dce4421a.php 第 77 行.
+NOTIC: [8] Undefined variable: i D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\72491030b312071af75970d5dce4421a.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\72491030b312071af75970d5dce4421a.php 第 77 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\72491030b312071af75970d5dce4421a.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2016-05-23T15:46:46+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/attributeList/type_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_attribute` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `jd_goods_attribute` INNER JOIN jd_goods_type ON jd_goods_attribute.type_id = jd_goods_type.type_id  WHERE jd_goods_type.type_id = '2'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 48 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 48 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 83 行.
+NOTIC: [8] Undefined variable: i D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 83 行.
+NOTIC: [8] Use of undefined constant attr_mode - assumed 'attr_mode' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 93 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 93 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 83 行.
+NOTIC: [8] Use of undefined constant attr_mode - assumed 'attr_mode' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 93 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 93 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 83 行.
+NOTIC: [8] Use of undefined constant attr_mode - assumed 'attr_mode' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 93 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 93 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 83 行.
+NOTIC: [8] Use of undefined constant attr_mode - assumed 'attr_mode' D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 93 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 93 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2016-05-23T15:46:49+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/editAttribute/attr_id/9/type_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_attribute` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `jd_goods_attribute` WHERE `attr_id` = 9 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jd_goods_type` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `jd_goods_type` WHERE `type_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jd_goods_type`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2016-05-23T15:46:58+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/editAttributeAct.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_attribute` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\jiadianshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\jiadianshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `jd_goods_attribute` SET `attr_name`='颜色分类',`type_id`='2',`attr_mode`='1',`input_type`='1',`attr_values`='黑色,白色' WHERE `attr_id` = 9 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-05-23T15:46:59+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/attributeList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_attribute` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `jd_goods_attribute` INNER JOIN jd_goods_type ON jd_goods_attribute.type_id = jd_goods_type.type_id  WHERE jd_goods_type.type_id = ''  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Undefined variable: type_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 48 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 48 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 118 行.
+NOTIC: [8] Undefined variable: attr D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3fbf6c6d39cadc77cbf0b2a359e8394d.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2016-05-23T15:47:00+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `jd_goods` INNER JOIN jd_brands ON jd_goods.brand_id = jd_brands.brand_id  WHERE `is_delete` = 0  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+NOTIC: [8] Undefined variable: cate_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 68 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 68 行.
+NOTIC: [8] Undefined variable: brand_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 78 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 78 行.
+NOTIC: [8] Undefined index: is_putaway D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 93 行.
+NOTIC: [8] Undefined index: is_putaway D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 94 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 102 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 103 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined variable: i D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 186 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2016-05-23T15:47:02+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `jd_brands`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jd_goods_type` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `jd_goods_type`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2016-05-23T15:47:06+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/getAttrListByTypeId.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_attribute` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `jd_goods_attribute` WHERE `type_id` = 2  [ RunTime:0.0005s ]
+
+[ 2016-05-23T16:07:33+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addGoodsAct.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\jiadianshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\jiadianshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\jiadianshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `jd_goods` (`goods_name`,`selling_points`,`goods_sn`,`cat_id`,`brand_id`,`market_price`,`shop_price`,`goods_number`,`goods_desc`,`is_putaway`,`is_new`,`is_rec`,`is_hot`,`warn_number`,`key_words`,`seo_description`,`seller_note`,`attr_id_list`,`attr_value_list`,`attr_price_list`,`attr_num_list`,`goods_thumb_img`,`add_time`) VALUES ('Skyworth/创维50M5 50寸4K超清酷开智能8核内置WiFi平板液晶电视','超划算创维50寸.首发SOC64位芯片，4K极清,酷开八核智能系统!软件自由安装和下载.内置WIFI，本店郑重承诺：厂家直营店，官方正品！全国联保！当地售后上门服务、正品保障！金牌卖家！信誉保障。','TV-CHUANGWEI-001','7','10','3000','2599','5000','&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463990414586652.jpg&quot; title=&quot;1463990414586652.jpg&quot; alt=&quot;01.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463990420898073.jpg&quot; title=&quot;1463990420898073.jpg&quot; alt=&quot;02.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463990423110699.jpg&quot; title=&quot;1463990423110699.jpg&quot; alt=&quot;03.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463990427140744.jpg&quot; title=&quot;1463990427140744.jpg&quot; alt=&quot;04.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463990431831417.jpg&quot; title=&quot;1463990431831417.jpg&quot; alt=&quot;05.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463990435937705.jpg&quot; title=&quot;1463990435937705.jpg&quot; alt=&quot;06.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463990439420893.jpg&quot; title=&quot;1463990439420893.jpg&quot; alt=&quot;07.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463990443399119.jpg&quot; title=&quot;1463990443399119.jpg&quot; alt=&quot;08.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463990447124142.jpg&quot; title=&quot;1463990447124142.jpg&quot; alt=&quot;09.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463990452805167.jpg&quot; title=&quot;1463990452805167.jpg&quot; alt=&quot;10.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463990457113384.jpg&quot; title=&quot;1463990457113384.jpg&quot; alt=&quot;11.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463990462105423.jpg&quot; title=&quot;1463990462105423.jpg&quot; alt=&quot;12.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463990469540909.jpg&quot; title=&quot;1463990469540909.jpg&quot; alt=&quot;13.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463990474749742.jpg&quot; title=&quot;1463990474749742.jpg&quot; alt=&quot;14.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463990478731970.jpg&quot; title=&quot;1463990478731970.jpg&quot; alt=&quot;15.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463990483200140.jpg&quot; title=&quot;1463990483200140.jpg&quot; alt=&quot;16.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463990488114709.jpg&quot; title=&quot;1463990488114709.jpg&quot; alt=&quot;17.jpg&quot;/&gt;&lt;img src=&quot;/jiadianshop/Public/Uploads/GoodsDetail/20160523/1463990494418914.jpg&quot; title=&quot;1463990494418914.jpg&quot; alt=&quot;18.jpg&quot;/&gt;&lt;/p&gt;','1','1','1','1','10','Skyworth/创维50M5 ,50寸,4K超清,智能8核,内置WiFi,平板,液晶电视','Skyworth/创维50M5 50寸4K超清酷开智能8核内置WiFi平板液晶电视','创维平板电视TV-CHUANGWEI-001','5,7,8,9,9','1124x77x659mm,酷开系统, VA,黑色,白色','2599,2599','2000,1500','/jiadianshop/Public/Uploads/GoodsThumb/20160523/8127_1463990853.jpg','1463990853') [ RunTime:0.0091s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001185s ]
+
+[ 2016-05-23T16:07:34+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `jd_goods` INNER JOIN jd_brands ON jd_goods.brand_id = jd_brands.brand_id  WHERE `is_delete` = 0  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined variable: cate_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 68 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 68 行.
+NOTIC: [8] Undefined variable: brand_list D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 78 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 78 行.
+NOTIC: [8] Undefined index: is_putaway D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 93 行.
+NOTIC: [8] Undefined index: is_putaway D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 94 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 102 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 103 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined variable: i D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 141 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 142 行.
+NOTIC: [8] Undefined index: pro_info D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 145 行.
+NOTIC: [8] Undefined index: cate_name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 146 行.
+NOTIC: [8] Undefined index: is_groupbuy D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 162 行.
+NOTIC: [8] Undefined index: groupbuy_price D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 169 行.
+NOTIC: [8] Undefined index: click_count D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 170 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\3268fbbbd0eb3ffe30140f78ff508f86.php 第 186 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2016-05-23T18:45:43+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/typeList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002236s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_type` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `jd_goods_type`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\72491030b312071af75970d5dce4421a.php 第 47 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\72491030b312071af75970d5dce4421a.php 第 77 行.
+NOTIC: [8] Undefined variable: i D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\72491030b312071af75970d5dce4421a.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\72491030b312071af75970d5dce4421a.php 第 77 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\72491030b312071af75970d5dce4421a.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2016-05-23T18:45:44+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/brandList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jd_brands` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jd_brands` LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 46 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined variable: i D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2016-05-23T18:45:48+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addBrand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2016-05-23T18:46:04+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addBrandAct.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0038s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\jiadianshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\jiadianshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `jd_brands` (`brand_name`,`cat_id`,`is_show`,`brand_des`,`order`) VALUES ('乐视','7','1','','1') [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2016-05-23T18:46:05+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/brandList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jd_brands` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jd_brands` LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 46 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined variable: i D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2016-05-23T18:46:08+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addBrand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_goods_cat` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `jd_goods_cat`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2016-05-23T18:46:19+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/addBrandAct.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0043s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\jiadianshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\jiadianshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `jd_brands` (`brand_name`,`cat_id`,`is_show`,`brand_des`,`order`) VALUES ('小米','7','1','','1') [ RunTime:0.0065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-05-23T18:46:20+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/brandList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jd_brands` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jd_brands` LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 46 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined variable: i D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2016-05-23T18:47:04+08:00 ] ::1 /jiadianshop/index.php/Admin/Goods/brandList/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\jiadianshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `jd_brands` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jd_brands` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jd_brands` LIMIT 10,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 46 行.
+NOTIC: [8] Undefined variable: i D:\wamp\www\jiadianshop\Application\Runtime\Cache\Admin\8ad682531753505dac7a94d431362521.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+

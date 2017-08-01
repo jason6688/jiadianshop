@@ -1,0 +1,1550 @@
+[ 2017-02-15T15:01:20+08:00 ] ::1 /jiadianshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.1550s ]
+SQL: SELECT * FROM `jd_goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 0,6   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `jd_goods` WHERE `cat_id` = 9 AND `is_delete` = 0  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jd_goods` WHERE `cat_id` = 7 AND `is_delete` = 0  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `jd_advertise` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `jd_advertise` INNER JOIN jd_advertise_pos ON jd_advertise.ad_pos_id=jd_advertise_pos.pos_id  WHERE `is_on` = 1 AND `pos_id` = 2 ORDER BY id desc LIMIT 5   [ RunTime:0.0325s ]
+SQL: SELECT * FROM `jd_advertise` INNER JOIN jd_advertise_pos ON jd_advertise.ad_pos_id=jd_advertise_pos.pos_id  WHERE `is_on` = 1 AND `pos_id` = 3 ORDER BY id desc LIMIT 5   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jd_advertise` INNER JOIN jd_advertise_pos ON jd_advertise.ad_pos_id=jd_advertise_pos.pos_id  WHERE `is_on` = 1 AND `pos_id` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `jd_article` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `jd_article` WHERE `cat_id` = 12  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.055001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.055001s ]
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: index_sale_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 873 行.
+NOTIC: [8] Undefined index: index_sale_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 873 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 891 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 893 行.
+NOTIC: [8] Undefined index: index_sale_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 873 行.
+NOTIC: [8] Undefined index: index_sale_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 873 行.
+NOTIC: [8] Undefined variable: 6 D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 919 行.
+NOTIC: [8] Undefined variable: 7 D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 919 行.
+NOTIC: [8] Undefined variable: 8 D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 919 行.
+NOTIC: [8] Undefined variable: 9 D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 919 行.
+NOTIC: [8] Undefined variable: links D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.775012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.775012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017500s ]
+
+[ 2017-02-15T15:01:21+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007501s ]
+
+[ 2017-02-15T15:01:22+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/makeCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007500s ]
+SQL: SHOW COLUMNS FROM `jd_advice_category` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `jd_advice_category`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-02-15T15:01:22+08:00 ] ::1 /jiadianshop/index.php/Home/SmallCat/myGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007500s ]
+NOTIC: [8] Undefined variable: cat_total_num D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 123 行.
+NOTIC: [8] Undefined variable: cat_total_price D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 123 行.
+NOTIC: [8] Undefined variable: str D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 124 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007500s ]
+
+[ 2017-02-15T15:01:22+08:00 ] ::1 /jiadianshop/index.php/Home/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007500s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-02-15T15:01:22+08:00 ] ::1 /jiadianshop/index.php/Home/Login/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: user_name D:\wamp\www\jiadianshop\Application\Home\Controller\LoginController.class.php 第 168 行.
+NOTIC: [8] Undefined variable: user_level D:\wamp\www\jiadianshop\Application\Home\Controller\LoginController.class.php 第 169 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-02-15T15:01:23+08:00 ] ::1 /jiadianshop/index.php/Home/SmallCat/myShop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Undefined variable: user_name D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: user_level D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: unpay_count D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 48 行.
+NOTIC: [8] Undefined variable: uncomment_count D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 49 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-02-15T15:03:30+08:00 ] ::1 /jiadianshop/index.php/Home/Product/index/g/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jd_goods` INNER JOIN jd_brands ON jd_goods.cat_id=jd_brands.cat_id INNER JOIN jd_goods_cat ON jd_goods.cat_id=jd_goods_cat.cat_id  WHERE `goods_id` = '4'  [ RunTime:0.0325s ]
+SQL: SHOW COLUMNS FROM `jd_comment` [ RunTime:0.0200s ]
+SQL: SELECT AVG(comment_score) AS tp_avg FROM `jd_comment` WHERE `goods_id` = 4 LIMIT 1   [ RunTime:0.0500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jd_comment` WHERE `goods_id` = 4 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `jd_comment` WHERE `goods_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `jd_comment` WHERE `goods_id` = 4 AND `comment_score` IN ('4','5') LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_comment` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `jd_comment` WHERE `goods_id` = 4 AND `comment_score` IN ('2','3') LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `jd_comment` WHERE `goods_id` = 4 AND `comment_score` IN ('0','1') LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `attr_id_list`,`attr_value_list` FROM `jd_goods` WHERE `goods_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_goods_attribute` [ RunTime:0.0075s ]
+SQL: SELECT `attr_name` FROM `jd_goods_attribute` WHERE `attr_id` = 0 LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Undefined variable: goods_desc D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 794 行.
+NOTIC: [8] Undefined index: goods_big_pic D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 1170 行.
+NOTIC: [8] Undefined index: goods_weight D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 1356 行.
+NOTIC: [8] Undefined variable: goods_attr_values D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 1358 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.325005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.327505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-02-15T15:03:31+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-02-15T15:03:31+08:00 ] ::1 /jiadianshop/index.php/Home/Login/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [8] Undefined variable: user_name D:\wamp\www\jiadianshop\Application\Home\Controller\LoginController.class.php 第 168 行.
+NOTIC: [8] Undefined variable: user_level D:\wamp\www\jiadianshop\Application\Home\Controller\LoginController.class.php 第 169 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T15:03:31+08:00 ] ::1 /jiadianshop/index.php/Home/SmallCat/myShop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Undefined variable: user_name D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: user_level D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: unpay_count D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 48 行.
+NOTIC: [8] Undefined variable: uncomment_count D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 49 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T15:03:31+08:00 ] ::1 /jiadianshop/index.php/Home/ScanGoods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T15:03:31+08:00 ] ::1 /jiadianshop/index.php/Home/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-02-15T15:03:31+08:00 ] ::1 /jiadianshop/index.php/Home/SmallCat/myGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cat_total_num D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 123 行.
+NOTIC: [8] Undefined variable: cat_total_price D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 123 行.
+NOTIC: [8] Undefined variable: str D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 124 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T15:03:31+08:00 ] ::1 /jiadianshop/index.php/Home/ScanGoods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`market_price`,`shop_price`,`goods_thumb_img` FROM `jd_goods` WHERE `goods_id` IN ('4')  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\jiadianshop\Application\Home\Controller\ScanGoodsController.class.php 第 72 行.
+
+[ 2017-02-15T15:03:31+08:00 ] ::1 /jiadianshop/index.php/Home/Product/index/g/%7B:U('HotSale/index')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_goods` INNER JOIN jd_brands ON jd_goods.cat_id=jd_brands.cat_id INNER JOIN jd_goods_cat ON jd_goods.cat_id=jd_goods_cat.cat_id  WHERE `goods_id` = '{:U(\'HotSale'  [ RunTime:0.0125s ]
+
+[ 2017-02-15T15:03:31+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/makeCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_advice_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_advice_category`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T15:03:44+08:00 ] ::1 /jiadianshop/index.php/Home/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_goods` WHERE `goods_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T15:03:44+08:00 ] ::1 /jiadianshop/index.php/Home/SmallCat/myGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0000s ]
+SQL: SELECT `goods_name`,`goods_thumb_img` FROM `jd_goods` WHERE `goods_id` = 4  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T15:03:47+08:00 ] ::1 /jiadianshop/index.php/Home/Cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-02-15T15:03:47+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-02-15T15:03:47+08:00 ] ::1 /jiadianshop/index.php/Home/Login/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: user_name D:\wamp\www\jiadianshop\Application\Home\Controller\LoginController.class.php 第 168 行.
+NOTIC: [8] Undefined variable: user_level D:\wamp\www\jiadianshop\Application\Home\Controller\LoginController.class.php 第 169 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-02-15T15:03:47+08:00 ] ::1 /jiadianshop/index.php/Home/Cart/cartContent.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_goods` WHERE `goods_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T15:03:47+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/makeCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `jd_advice_category` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jd_advice_category`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-02-15T15:03:56+08:00 ] ::1 /jiadianshop/index.php/Home/Confirmcart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-02-15T15:03:56+08:00 ] ::1 /jiadianshop/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found D:\wamp\www\jiadianshop\Application\Home\Controller\LoginController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-02-15T15:03:56+08:00 ] ::1 /jiadianshop/index.php/Home/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-02-15T15:04:21+08:00 ] ::1 /jiadianshop/index.php/Home/Login/check_verify.html?code=jknl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-02-15T15:04:21+08:00 ] ::1 /jiadianshop/index.php/Home/Login/remoteLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `jd_user` WHERE `user_name` = 'shiyayun' AND `user_pwd` = '00e846caabc1770b9bec1b229865eaba' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-02-15T15:04:21+08:00 ] ::1 /jiadianshop/index.php/Home/Login/verify.html?0.8873011697984972
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-02-15T15:04:24+08:00 ] ::1 /jiadianshop/index.php/Home/Sign/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-02-15T15:04:24+08:00 ] ::1 /jiadianshop/index.php/Home/Sign/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-02-15T15:04:33+08:00 ] ::1 /jiadianshop/index.php/Home/Sign/checkName.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `jd_user` WHERE `user_name` = 'shiyayun123456'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-02-15T15:05:12+08:00 ] ::1 /jiadianshop/index.php/Home/Sign/checkName.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_user` WHERE `user_name` = 'shiyayun123456'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2017-02-15T15:05:13+08:00 ] ::1 /jiadianshop/index.php/Home/Sign/checkName.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `jd_user` WHERE `user_name` = 'shiyayun123456'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-02-15T15:06:00+08:00 ] ::1 /jiadianshop/index.php/Home/Sign/check_verify.html?code=sam5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2017-02-15T15:06:00+08:00 ] ::1 /jiadianshop/index.php/Home/Sign/loginDo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `jd_user` WHERE `user_name` = 'shiyayun123456'  [ RunTime:0.0010s ]
+SQL: INSERT INTO `jd_user` (`user_login_time`,`user_last_ip`,`user_last_time`,`user_score`,`user_name`,`user_pwd`,`user_email`) VALUES ('1487142360','0','1487142360','0','shiyayun123456','345e1649b4b35a03215fa4f33b4f06df','shiyayun@126.com') [ RunTime:0.0300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-02-15T15:06:01+08:00 ] ::1 /jiadianshop/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `jd_goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 0,6   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `jd_goods` WHERE `cat_id` = 9 AND `is_delete` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jd_goods` WHERE `cat_id` = 7 AND `is_delete` = 0  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `jd_advertise` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `jd_advertise` INNER JOIN jd_advertise_pos ON jd_advertise.ad_pos_id=jd_advertise_pos.pos_id  WHERE `is_on` = 1 AND `pos_id` = 2 ORDER BY id desc LIMIT 5   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `jd_advertise` INNER JOIN jd_advertise_pos ON jd_advertise.ad_pos_id=jd_advertise_pos.pos_id  WHERE `is_on` = 1 AND `pos_id` = 3 ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jd_advertise` INNER JOIN jd_advertise_pos ON jd_advertise.ad_pos_id=jd_advertise_pos.pos_id  WHERE `is_on` = 1 AND `pos_id` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `jd_article` WHERE `cat_id` = 12  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: index_sale_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 873 行.
+NOTIC: [8] Undefined index: index_sale_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 873 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 891 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 893 行.
+NOTIC: [8] Undefined index: index_sale_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 873 行.
+NOTIC: [8] Undefined index: index_sale_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 873 行.
+NOTIC: [8] Undefined variable: 6 D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 919 行.
+NOTIC: [8] Undefined variable: 7 D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 919 行.
+NOTIC: [8] Undefined variable: 8 D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 919 行.
+NOTIC: [8] Undefined variable: 9 D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 919 行.
+NOTIC: [8] Undefined variable: links D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.508029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.510029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-02-15T15:06:01+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-02-15T15:06:01+08:00 ] ::1 /jiadianshop/index.php/Home/Login/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0030s ]
+SQL: SELECT `user_score` FROM `jd_user` WHERE `user_id` = 15 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-02-15T15:06:01+08:00 ] ::1 /jiadianshop/index.php/Home/SmallCat/myGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.010000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0030s ]
+SQL: SELECT `goods_name`,`goods_thumb_img` FROM `jd_goods` WHERE `goods_id` = 4  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-02-15T15:06:02+08:00 ] ::1 /jiadianshop/index.php/Home/SmallCat/myShop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0020s ]
+SQL: SELECT `user_score` FROM `jd_user` WHERE `user_id` = 15  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_order` [ RunTime:0.0340s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jd_order` WHERE `user_id` = 15 AND `order_state` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jd_order` WHERE `user_id` = 15 AND `order_state` = 3 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-02-15T15:06:02+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/makeCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `jd_advice_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `jd_advice_category`  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-02-15T15:06:02+08:00 ] ::1 /jiadianshop/index.php/Home/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-02-15T15:06:09+08:00 ] ::1 /jiadianshop/index.php/Home/Cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-02-15T15:06:09+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-02-15T15:06:09+08:00 ] ::1 /jiadianshop/index.php/Home/Login/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0020s ]
+SQL: SELECT `user_score` FROM `jd_user` WHERE `user_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-02-15T15:06:09+08:00 ] ::1 /jiadianshop/index.php/Home/Cart/cartContent.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `jd_goods` WHERE `goods_id` = 4  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-02-15T15:06:09+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/makeCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `jd_advice_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `jd_advice_category`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-02-15T15:06:15+08:00 ] ::1 /jiadianshop/index.php/Home/Confirmcart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `jd_address` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `jd_address` WHERE `user_id` = 15 AND `address_lock` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\jiadianshop\Application\Home\Controller\ConfirmcartController.class.php 第 28 行.
+SQL: SELECT * FROM `jd_address` WHERE `user_id` = 15 AND `address_lock` = 0  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `jd_goods` WHERE `goods_id` = 4  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: total_save_money D:\wamp\www\jiadianshop\Application\Home\Controller\ConfirmcartController.class.php 第 55 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.161009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.163010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2017-02-15T15:06:15+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-02-15T15:06:16+08:00 ] ::1 /jiadianshop/index.php/Home/Login/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0020s ]
+SQL: SELECT `user_score` FROM `jd_user` WHERE `user_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-15T15:06:16+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/makeCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `jd_advice_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jd_advice_category`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-02-15T15:08:37+08:00 ] ::1 /jiadianshop/index.php/Home/Product/index/g/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jd_goods` INNER JOIN jd_brands ON jd_goods.cat_id=jd_brands.cat_id INNER JOIN jd_goods_cat ON jd_goods.cat_id=jd_goods_cat.cat_id  WHERE `goods_id` = '4'  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `jd_comment` [ RunTime:0.0020s ]
+SQL: SELECT AVG(comment_score) AS tp_avg FROM `jd_comment` WHERE `goods_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jd_comment` WHERE `goods_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `jd_comment` WHERE `goods_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `jd_comment` WHERE `goods_id` = 4 AND `comment_score` IN ('4','5') LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_comment` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `jd_comment` WHERE `goods_id` = 4 AND `comment_score` IN ('2','3') LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `jd_comment` WHERE `goods_id` = 4 AND `comment_score` IN ('0','1') LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `attr_id_list`,`attr_value_list` FROM `jd_goods` WHERE `goods_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_goods_attribute` [ RunTime:0.0020s ]
+SQL: SELECT `attr_name` FROM `jd_goods_attribute` WHERE `attr_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: goods_desc D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 794 行.
+NOTIC: [8] Undefined index: goods_big_pic D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 1170 行.
+NOTIC: [8] Undefined index: goods_weight D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 1356 行.
+NOTIC: [8] Undefined variable: goods_attr_values D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 1358 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.314018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.316018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015001s ]
+
+[ 2017-02-15T15:08:37+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2017-02-15T15:08:38+08:00 ] ::1 /jiadianshop/index.php/Home/SmallCat/myShop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0020s ]
+SQL: SELECT `user_score` FROM `jd_user` WHERE `user_id` = 15  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jd_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jd_order` WHERE `user_id` = 15 AND `order_state` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jd_order` WHERE `user_id` = 15 AND `order_state` = 3 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-02-15T15:08:38+08:00 ] ::1 /jiadianshop/index.php/Home/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-02-15T15:08:38+08:00 ] ::1 /jiadianshop/index.php/Home/Login/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0030s ]
+SQL: SELECT `user_score` FROM `jd_user` WHERE `user_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-02-15T15:08:38+08:00 ] ::1 /jiadianshop/index.php/Home/ScanGoods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-02-15T15:08:38+08:00 ] ::1 /jiadianshop/index.php/Home/SmallCat/myGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0010s ]
+SQL: SELECT `goods_name`,`goods_thumb_img` FROM `jd_goods` WHERE `goods_id` = 4  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-02-15T15:08:38+08:00 ] ::1 /jiadianshop/index.php/Home/ScanGoods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0020s ]
+SQL: SELECT `goods_id`,`goods_name`,`market_price`,`shop_price`,`goods_thumb_img` FROM `jd_goods` WHERE `goods_id` IN ('4')  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\jiadianshop\Application\Home\Controller\ScanGoodsController.class.php 第 72 行.
+
+[ 2017-02-15T15:08:38+08:00 ] ::1 /jiadianshop/index.php/Home/Product/index/g/%7B:U('HotSale/index')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `jd_goods` INNER JOIN jd_brands ON jd_goods.cat_id=jd_brands.cat_id INNER JOIN jd_goods_cat ON jd_goods.cat_id=jd_goods_cat.cat_id  WHERE `goods_id` = '{:U(\'HotSale'  [ RunTime:0.0040s ]
+
+[ 2017-02-15T15:08:38+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/makeCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `jd_advice_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jd_advice_category`  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-02-15T16:16:48+08:00 ] ::1 /jiadianshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.042500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.2675s ]
+SQL: SELECT * FROM `jd_goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 0,6   [ RunTime:0.0400s ]
+SQL: SELECT * FROM `jd_goods` WHERE `cat_id` = 9 AND `is_delete` = 0  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jd_goods` WHERE `cat_id` = 7 AND `is_delete` = 0  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `jd_advertise` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `jd_advertise` INNER JOIN jd_advertise_pos ON jd_advertise.ad_pos_id=jd_advertise_pos.pos_id  WHERE `is_on` = 1 AND `pos_id` = 2 ORDER BY id desc LIMIT 5   [ RunTime:0.0400s ]
+SQL: SELECT * FROM `jd_advertise` INNER JOIN jd_advertise_pos ON jd_advertise.ad_pos_id=jd_advertise_pos.pos_id  WHERE `is_on` = 1 AND `pos_id` = 3 ORDER BY id desc LIMIT 5   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jd_advertise` INNER JOIN jd_advertise_pos ON jd_advertise.ad_pos_id=jd_advertise_pos.pos_id  WHERE `is_on` = 1 AND `pos_id` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_article` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `jd_article` WHERE `cat_id` = 12  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.025000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.025000s ]
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: index_sale_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 873 行.
+NOTIC: [8] Undefined index: index_sale_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 873 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 891 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 893 行.
+NOTIC: [8] Undefined index: index_sale_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 873 行.
+NOTIC: [8] Undefined index: index_sale_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 873 行.
+NOTIC: [8] Undefined variable: 6 D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 919 行.
+NOTIC: [8] Undefined variable: 7 D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 919 行.
+NOTIC: [8] Undefined variable: 8 D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 919 行.
+NOTIC: [8] Undefined variable: 9 D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 919 行.
+NOTIC: [8] Undefined variable: links D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.640010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.642510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.042500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.045000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015000s ]
+
+[ 2017-02-15T16:16:49+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-02-15T16:16:50+08:00 ] ::1 /jiadianshop/index.php/Home/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-02-15T16:16:50+08:00 ] ::1 /jiadianshop/index.php/Home/Login/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007500s ]
+NOTIC: [8] Undefined variable: user_name D:\wamp\www\jiadianshop\Application\Home\Controller\LoginController.class.php 第 168 行.
+NOTIC: [8] Undefined variable: user_level D:\wamp\www\jiadianshop\Application\Home\Controller\LoginController.class.php 第 169 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-02-15T16:16:50+08:00 ] ::1 /jiadianshop/index.php/Home/SmallCat/myGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007500s ]
+NOTIC: [8] Undefined variable: cat_total_num D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 123 行.
+NOTIC: [8] Undefined variable: cat_total_price D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 123 行.
+NOTIC: [8] Undefined variable: str D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 124 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-02-15T16:16:51+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/makeCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `jd_advice_category` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `jd_advice_category`  [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-02-15T16:16:51+08:00 ] ::1 /jiadianshop/index.php/Home/SmallCat/myShop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.007500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007500s ]
+NOTIC: [8] Undefined variable: user_name D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: user_level D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: unpay_count D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 48 行.
+NOTIC: [8] Undefined variable: uncomment_count D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 49 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-02-15T16:17:19+08:00 ] ::1 /jiadianshop/index.php/Home/Product/index/g/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_goods` INNER JOIN jd_brands ON jd_goods.cat_id=jd_brands.cat_id INNER JOIN jd_goods_cat ON jd_goods.cat_id=jd_goods_cat.cat_id  WHERE `goods_id` = '4'  [ RunTime:0.0675s ]
+SQL: SHOW COLUMNS FROM `jd_comment` [ RunTime:0.0225s ]
+SQL: SELECT AVG(comment_score) AS tp_avg FROM `jd_comment` WHERE `goods_id` = 4 LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jd_comment` WHERE `goods_id` = 4 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `jd_comment` WHERE `goods_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `jd_comment` WHERE `goods_id` = 4 AND `comment_score` IN ('4','5') LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `jd_comment` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `jd_comment` WHERE `goods_id` = 4 AND `comment_score` IN ('2','3') LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(comment_id) AS tp_count FROM `jd_comment` WHERE `goods_id` = 4 AND `comment_score` IN ('0','1') LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT `attr_id_list`,`attr_value_list` FROM `jd_goods` WHERE `goods_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_goods_attribute` [ RunTime:0.0100s ]
+SQL: SELECT `attr_name` FROM `jd_goods_attribute` WHERE `attr_id` = 0 LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Undefined variable: goods_desc D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 794 行.
+NOTIC: [8] Undefined index: goods_big_pic D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 1170 行.
+NOTIC: [8] Undefined index: goods_weight D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 1356 行.
+NOTIC: [8] Undefined variable: goods_attr_values D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\3458861da0342b1f9413030055ee3fb6.php 第 1358 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.372506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.377506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-02-15T16:17:19+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-02-15T16:17:19+08:00 ] ::1 /jiadianshop/index.php/Home/SmallCat/myShop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007500s ]
+NOTIC: [8] Undefined variable: user_name D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: user_level D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: unpay_count D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 48 行.
+NOTIC: [8] Undefined variable: uncomment_count D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 49 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-02-15T16:17:19+08:00 ] ::1 /jiadianshop/index.php/Home/SmallCat/myGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007500s ]
+NOTIC: [8] Undefined variable: cat_total_num D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 123 行.
+NOTIC: [8] Undefined variable: cat_total_price D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 123 行.
+NOTIC: [8] Undefined variable: str D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 124 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T16:17:19+08:00 ] ::1 /jiadianshop/index.php/Home/Login/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: user_name D:\wamp\www\jiadianshop\Application\Home\Controller\LoginController.class.php 第 168 行.
+NOTIC: [8] Undefined variable: user_level D:\wamp\www\jiadianshop\Application\Home\Controller\LoginController.class.php 第 169 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T16:17:20+08:00 ] ::1 /jiadianshop/index.php/Home/ScanGoods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T16:17:20+08:00 ] ::1 /jiadianshop/index.php/Home/Product/index/g/%7B:U('HotSale/index')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_goods` INNER JOIN jd_brands ON jd_goods.cat_id=jd_brands.cat_id INNER JOIN jd_goods_cat ON jd_goods.cat_id=jd_goods_cat.cat_id  WHERE `goods_id` = '{:U(\'HotSale'  [ RunTime:0.0156s ]
+
+[ 2017-02-15T16:17:20+08:00 ] ::1 /jiadianshop/index.php/Home/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-02-15T16:17:20+08:00 ] ::1 /jiadianshop/index.php/Home/ScanGoods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_name`,`market_price`,`shop_price`,`goods_thumb_img` FROM `jd_goods` WHERE `goods_id` IN ('4')  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\jiadianshop\Application\Home\Controller\ScanGoodsController.class.php 第 72 行.
+
+[ 2017-02-15T16:17:20+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/makeCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `jd_advice_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_advice_category`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-02-15T16:18:02+08:00 ] ::1 /jiadianshop/index.php/Home/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_goods` WHERE `goods_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T16:18:02+08:00 ] ::1 /jiadianshop/index.php/Home/SmallCat/myGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002501s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0000s ]
+SQL: SELECT `goods_name`,`goods_thumb_img` FROM `jd_goods` WHERE `goods_id` = 4  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-15T16:18:06+08:00 ] ::1 /jiadianshop/index.php/Home/BuyNow/index.html?goods_id=4&num=5&order_attr=%E3%80%901%E5%8C%B9%E3%80%91
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007501s ]
+
+[ 2017-02-15T16:18:07+08:00 ] ::1 /jiadianshop/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2] preg_match(): No ending delimiter '/' found D:\wamp\www\jiadianshop\Application\Home\Controller\LoginController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-02-15T16:18:07+08:00 ] ::1 /jiadianshop/index.php/Home/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-02-15T16:18:15+08:00 ] ::1 /jiadianshop/index.php/Home/Login/check_verify.html?code=5ada
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-02-15T16:18:15+08:00 ] ::1 /jiadianshop/index.php/Home/Login/remoteLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jd_user` WHERE `user_name` = 'shiyayun123456' AND `user_pwd` = '345e1649b4b35a03215fa4f33b4f06df' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jd_user` SET `user_last_time`='1487146695',`user_last_ip`='0' WHERE `user_id` = 15 [ RunTime:0.0468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-02-15T16:18:16+08:00 ] ::1 /jiadianshop/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007500s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jd_goods` WHERE `is_hot` = 1 ORDER BY goods_id desc LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_goods` WHERE `cat_id` = 9 AND `is_delete` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_goods` WHERE `cat_id` = 7 AND `is_delete` = 0  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `jd_advertise` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jd_advertise` INNER JOIN jd_advertise_pos ON jd_advertise.ad_pos_id=jd_advertise_pos.pos_id  WHERE `is_on` = 1 AND `pos_id` = 2 ORDER BY id desc LIMIT 5   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jd_advertise` INNER JOIN jd_advertise_pos ON jd_advertise.ad_pos_id=jd_advertise_pos.pos_id  WHERE `is_on` = 1 AND `pos_id` = 3 ORDER BY id desc LIMIT 5   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jd_advertise` INNER JOIN jd_advertise_pos ON jd_advertise.ad_pos_id=jd_advertise_pos.pos_id  WHERE `is_on` = 1 AND `pos_id` = 1 ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_article` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_article` WHERE `cat_id` = 12  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 681 行.
+NOTIC: [8] Undefined index: index_sale_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 873 行.
+NOTIC: [8] Undefined index: index_sale_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 873 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 891 行.
+NOTIC: [8] Undefined index: goods_state D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 893 行.
+NOTIC: [8] Undefined index: index_sale_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 873 行.
+NOTIC: [8] Undefined index: index_sale_id D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 873 行.
+NOTIC: [8] Undefined variable: 6 D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 919 行.
+NOTIC: [8] Undefined variable: 7 D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 919 行.
+NOTIC: [8] Undefined variable: 8 D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 919 行.
+NOTIC: [8] Undefined variable: 9 D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 919 行.
+NOTIC: [8] Undefined variable: links D:\wamp\www\jiadianshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 1306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.490007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.495007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007501s ]
+
+[ 2017-02-15T16:18:16+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-02-15T16:18:16+08:00 ] ::1 /jiadianshop/index.php/Home/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012500s ]
+ERR: 无法加载控制器:Category
+
+[ 2017-02-15T16:18:17+08:00 ] ::1 /jiadianshop/index.php/Home/SmallCat/myGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0025s ]
+SQL: SELECT `goods_name`,`goods_thumb_img` FROM `jd_goods` WHERE `goods_id` = 4  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: str D:\wamp\www\jiadianshop\Application\Home\Controller\SmallCatController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-02-15T16:18:17+08:00 ] ::1 /jiadianshop/index.php/Home/Login/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007500s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0025s ]
+SQL: SELECT `user_score` FROM `jd_user` WHERE `user_id` = 15 LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-02-15T16:18:17+08:00 ] ::1 /jiadianshop/index.php/Home/SmallCat/myShop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0025s ]
+SQL: SELECT `user_score` FROM `jd_user` WHERE `user_id` = 15  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jd_order` [ RunTime:0.0250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jd_order` WHERE `user_id` = 15 AND `order_state` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jd_order` WHERE `user_id` = 15 AND `order_state` = 3 LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-02-15T16:18:17+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/makeCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `jd_advice_category` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jd_advice_category`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-02-15T16:18:21+08:00 ] ::1 /jiadianshop/index.php/Home/Cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.210003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.212503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007500s ]
+
+[ 2017-02-15T16:18:22+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022501s ]
+
+[ 2017-02-15T16:18:22+08:00 ] ::1 /jiadianshop/index.php/Home/Cart/cartContent.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jd_goods` WHERE `goods_id` = 4  [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-02-15T16:18:22+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/makeCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `jd_advice_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jd_advice_category`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-02-15T16:18:22+08:00 ] ::1 /jiadianshop/index.php/Home/Login/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0025s ]
+SQL: SELECT `user_score` FROM `jd_user` WHERE `user_id` = 15 LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-02-15T16:18:28+08:00 ] ::1 /jiadianshop/index.php/Home/Confirmcart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `jd_address` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `jd_address` WHERE `user_id` = 15 AND `address_lock` = 1  [ RunTime:0.0025s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\jiadianshop\Application\Home\Controller\ConfirmcartController.class.php 第 28 行.
+SQL: SELECT * FROM `jd_address` WHERE `user_id` = 15 AND `address_lock` = 0  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `jd_goods` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jd_goods` WHERE `goods_id` = 4  [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: total_save_money D:\wamp\www\jiadianshop\Application\Home\Controller\ConfirmcartController.class.php 第 55 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.165002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.167502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-02-15T16:18:28+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-02-15T16:18:29+08:00 ] ::1 /jiadianshop/index.php/Home/Advice/makeCategory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `jd_advice_category` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jd_advice_category`  [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-02-15T16:18:29+08:00 ] ::1 /jiadianshop/index.php/Home/Login/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `jd_user` [ RunTime:0.0025s ]
+SQL: SELECT `user_score` FROM `jd_user` WHERE `user_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+

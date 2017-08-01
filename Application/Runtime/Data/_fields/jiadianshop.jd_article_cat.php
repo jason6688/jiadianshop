@@ -1,0 +1,1 @@
+a:6:{i:0;s:6:"cat_id";i:1;s:8:"cat_name";i:2;s:10:"sort_order";i:3;s:9:"parent_id";s:3:"_pk";s:6:"cat_id";s:5:"_type";a:4:{s:6:"cat_id";s:20:"smallint(5) unsigned";s:8:"cat_name";s:11:"varchar(32)";s:10:"sort_order";s:19:"tinyint(3) unsigned";s:9:"parent_id";s:20:"smallint(5) unsigned";}}
